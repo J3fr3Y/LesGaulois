@@ -1,5 +1,7 @@
 package personnages;
 
+
+
 public class Romain {
 	private String nom;
 	private int force;
@@ -24,5 +26,8 @@ public class Romain {
 			parler("J'abandonne...");
 		}
 	}
+		
+	
+	
 }
 
