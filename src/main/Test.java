@@ -26,8 +26,9 @@ public class Test {
 		village.ajouterHabitant(obelix);
 		village.setChef(abraracourcix);
 		village.afficherVillageois();
-		/*
-		TP1
+		System.out.println("_______________________________________________________________________________________");
+		System.out.println("\n");
+		//TP1
 		panoramix.parler("Je vais aller préparer une petite potion...");
 		panoramix.preparerPotion(6);
 		panoramix.booster(obelix);
@@ -38,7 +39,7 @@ public class Test {
 		asterix.frapper(minus);
 		asterix.frapper(minus);
 		asterix.frapper(minus);
-		*/
+	
 		
 		
 		
