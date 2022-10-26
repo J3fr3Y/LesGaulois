@@ -3,6 +3,7 @@ package main;
 import personnages.Gaulois;
 import personnages.Romain;
 import personnages.Druide;
+import personnages.Equipement;
 import personnages.Chef;
 import lieux.Village;
 
@@ -26,8 +27,15 @@ public class Test {
 		village.ajouterHabitant(obelix);
 		village.setChef(abraracourcix);
 		village.afficherVillageois();
-		System.out.println("_______________________________________________________________________________________");
-		System.out.println("\n");
+		System.out.println("_______________________________________________________________________________________\n");
+		
+		minus.sEquiper(Equipement.CASQUE);
+		minus.sEquiper(Equipement.CASQUE);
+		minus.sEquiper(Equipement.BOUCLIER);
+		minus.sEquiper(Equipement.BOUCLIER);
+				
+		System.out.println("_______________________________________________________________________________________\n");
+
 		//TP1
 		panoramix.parler("Je vais aller préparer une petite potion...");
 		panoramix.preparerPotion(6);
