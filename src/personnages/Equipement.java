@@ -10,6 +10,7 @@ public enum Equipement {
 	}
 	
 	public String toString() {
+		
 		return this.nom;
 	}
 }
